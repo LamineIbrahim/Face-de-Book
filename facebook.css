@@ -128,7 +128,7 @@ button:hover{
         margin-top: 50px;
     }
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 684px) {
     body{
         height: 1200px;
     }
