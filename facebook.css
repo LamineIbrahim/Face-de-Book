@@ -74,6 +74,15 @@ h3{
     display: grid;
     align-self: center;
 }
+.in{
+    width: 150px; 
+    height: 20px;
+}
+.inn{
+    width: 312px; 
+    margin-top: 5px; 
+    height: 20px;
+}
 h5{
     color: #707275;
     font-size: 15px;
@@ -81,6 +90,12 @@ h5{
 p{
     position: relative;
     bottom: 20px;
+}
+.bas{
+    width: 300px;
+    text-align: justify; 
+    padding-top: 20px; 
+    font-size: 12px;
 }
 button{
     background: linear-gradient(lightgreen, green);
@@ -93,7 +108,7 @@ button{
 button:hover{
     cursor: pointer;
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 912px) {
     .conex form table tr td input{
         width: 70px;
     }
@@ -142,5 +157,67 @@ button:hover{
         font-size: 10px;
         margin-top: 12px;
         margin-right: 2%;
+    }
+}
+@media screen and (max-width: 280px) {
+    body{
+        width: 280px;
+    }
+    .conex form table tr td input{
+        width: 70px;
+    }
+    .fb{
+        font-size: 20px;
+        position: absolute;
+        left: 10%;
+        color: #fff;
+        top: 3.5%;
+        font-weight: bold;
+    }
+    .left{
+        margin-left: 0;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .right{
+        margin-right: 0%;
+    }
+    .conect{
+        color: rgb (14, 56, 95);
+        font-size: 15px;
+        font-weight: bold;
+        width: 100%;
+        left: 0;
+        /* word-spacing: -1; */
+        display: block;
+        position: relative;
+    }
+    .conex{
+        float: right;
+        color: #fff;
+        font-size: 10px;
+        margin-top: 50px;
+        margin-right: 15px;
+    }
+    .share{
+        margin-top: 30px;
+        height: 200px;
+        display: grid;
+        align-self: center;
+        width: 100%;
+        grid-template-columns: 280px;
+        font-size: 15px;
+    }
+    .bas{
+        width: 240px;
+    }
+    .in{
+        width: 100px; 
+        height: 20px;
+    }
+    .inn{
+        width: 212px; 
+        margin-top: 5px; 
+        height: 20px;
     }
 }
